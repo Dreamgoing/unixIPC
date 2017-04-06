@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wangruoxuan/ClionProjects/unixIPC/fork.cpp
+stdio.h
+-
+stdlib.h
+-
+errno.h
+-
+unistd.h
+-
+sys/types.h
+-
+sys/wait.h
+-
+

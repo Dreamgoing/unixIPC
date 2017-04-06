@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wangruoxuan/ClionProjects/unixIPC/beej's_guide/semrm.cpp
+stdio.h
+-
+stdlib.h
+-
+errno.h
+-
+sys/types.h
+-
+sys/ipc.h
+-
+sys/sem.h
+-
+sys/shm.h
+-
+

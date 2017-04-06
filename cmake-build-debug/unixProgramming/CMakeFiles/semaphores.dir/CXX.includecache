@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wangruoxuan/ClionProjects/unixIPC/unixProgramming/semaphores.cpp
+stdio.h
+-
+errno.h
+-
+unistd.h
+-
+stdlib.h
+-
+time.h
+-
+signal.h
+-
+pthread.h
+-
+semaphore.h
+-
+

@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="unixIPC"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\beej&apos;s_guide\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="semdemo">
+				<Option output="/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/semdemo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 semdemo"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="semdemo/fast">
+				<Option output="/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/semdemo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 semdemo/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="namePipetick">
+				<Option output="/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/namePipetick" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 namePipetick"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="namePipetick/fast">
+				<Option output="/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/namePipetick" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 namePipetick/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="signal">
+				<Option output="/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/signal" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 signal"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="signal/fast">
+				<Option output="/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/signal" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 signal/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="namedPipespeaker">
+				<Option output="/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/namedPipespeaker" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 namedPipespeaker"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="namedPipespeaker/fast">
+				<Option output="/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/namedPipespeaker" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 namedPipespeaker/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sharedmemory">
+				<Option output="/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/sharedmemory" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 sharedmemory"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sharedmemory/fast">
+				<Option output="/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/sharedmemory" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 sharedmemory/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pipeLs">
+				<Option output="/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/pipeLs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 pipeLs"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pipeLs/fast">
+				<Option output="/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/pipeLs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 pipeLs/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fileLock">
+				<Option output="/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/fileLock" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 fileLock"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fileLock/fast">
+				<Option output="/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/fileLock" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 fileLock/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="msgQuspock">
+				<Option output="/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/msgQuspock" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 msgQuspock"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="msgQuspock/fast">
+				<Option output="/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/msgQuspock" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 msgQuspock/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pipe">
+				<Option output="/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/pipe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 pipe"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pipe/fast">
+				<Option output="/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/pipe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 pipe/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="msgQukick">
+				<Option output="/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/msgQukick" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 msgQukick"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="msgQukick/fast">
+				<Option output="/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/msgQukick" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 msgQukick/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unixIPC">
+				<Option output="/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/unixIPC" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 unixIPC"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unixIPC/fast">
+				<Option output="/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/unixIPC" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 unixIPC/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sigusr">
+				<Option output="/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/sigusr" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 sigusr"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sigusr/fast">
+				<Option output="/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/sigusr" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 sigusr/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="forknum">
+				<Option output="/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/forknum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 forknum"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="forknum/fast">
+				<Option output="/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/forknum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 forknum/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fork">
+				<Option output="/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/fork" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 fork"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fork/fast">
+				<Option output="/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/fork" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.2/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 fork/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wangruoxuan/ClionProjects/unixIPC/cmake-build-debug/beej&apos;s_guide/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/wangruoxuan/ClionProjects/unixIPC/beej&apos;s_guide/fileLock.cpp">
+			<Option target="fileLock"/>
+		</Unit>
+		<Unit filename="/Users/wangruoxuan/ClionProjects/unixIPC/beej&apos;s_guide/fork.cpp">
+			<Option target="fork"/>
+		</Unit>
+		<Unit filename="/Users/wangruoxuan/ClionProjects/unixIPC/beej&apos;s_guide/forknum.cpp">
+			<Option target="forknum"/>
+		</Unit>
+		<Unit filename="/Users/wangruoxuan/ClionProjects/unixIPC/beej&apos;s_guide/main.cpp">
+			<Option target="unixIPC"/>
+		</Unit>
+		<Unit filename="/Users/wangruoxuan/ClionProjects/unixIPC/beej&apos;s_guide/msgQukick.cpp">
+			<Option target="msgQukick"/>
+		</Unit>
+		<Unit filename="/Users/wangruoxuan/ClionProjects/unixIPC/beej&apos;s_guide/msgQuspock.cpp">
+			<Option target="msgQuspock"/>
+		</Unit>
+		<Unit filename="/Users/wangruoxuan/ClionProjects/unixIPC/beej&apos;s_guide/namePipetick.cpp">
+			<Option target="namePipetick"/>
+		</Unit>
+		<Unit filename="/Users/wangruoxuan/ClionProjects/unixIPC/beej&apos;s_guide/namedPipespeaker.cpp">
+			<Option target="namedPipespeaker"/>
+		</Unit>
+		<Unit filename="/Users/wangruoxuan/ClionProjects/unixIPC/beej&apos;s_guide/pipe.cpp">
+			<Option target="pipe"/>
+		</Unit>
+		<Unit filename="/Users/wangruoxuan/ClionProjects/unixIPC/beej&apos;s_guide/pipeLs.cpp">
+			<Option target="pipeLs"/>
+		</Unit>
+		<Unit filename="/Users/wangruoxuan/ClionProjects/unixIPC/beej&apos;s_guide/semdome.cpp">
+			<Option target="semdemo"/>
+		</Unit>
+		<Unit filename="/Users/wangruoxuan/ClionProjects/unixIPC/beej&apos;s_guide/sharedmemory.cpp">
+			<Option target="sharedmemory"/>
+		</Unit>
+		<Unit filename="/Users/wangruoxuan/ClionProjects/unixIPC/beej&apos;s_guide/signal.cpp">
+			<Option target="signal"/>
+		</Unit>
+		<Unit filename="/Users/wangruoxuan/ClionProjects/unixIPC/beej&apos;s_guide/sigusr.cpp">
+			<Option target="sigusr"/>
+		</Unit>
+		<Unit filename="/Users/wangruoxuan/ClionProjects/unixIPC/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/wangruoxuan/ClionProjects/unixIPC/beej&apos;s_guide/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\beej&apos;s_guide\"/>
+		</Unit>
+		<Unit filename="/Users/wangruoxuan/ClionProjects/unixIPC/beej&apos;s_guide/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\beej&apos;s_guide\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
